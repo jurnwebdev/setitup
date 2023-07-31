@@ -22,7 +22,7 @@ Setitup is a dedicated platform designed to provide new laptop users with a seam
 
 ## Get Started
 
-Don't let the hassle of setting up your new laptop hold you back. Embrace a smoother, more efficient experience with Setitup. Get started now by visiting our website at [www.Setitup.com](https://www.Setitup.com).
+Don't let the hassle of setting up your new laptop hold you back. Embrace a smoother, more efficient experience with Setitup. Get started now by visiting our website at [www.Setitup.com](https://melodious-axolotl-a5c0fc.netlify.app/).
 
 ## Share Your Feedback
 
