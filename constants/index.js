@@ -3,7 +3,7 @@
 export const softwareList = [
     {
         title: "Google Chrome",
-        link: "https://www.google.com/chrome/next-steps.html?statcb=0&installdataindex=empty&defaultbrowser=0#",
+        link: "https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg",
         icon: "#"
     },
     {
