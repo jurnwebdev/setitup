@@ -3,15 +3,12 @@ import { softwareCardComponent } from '@/type'
 import SoftwareCard from './softwareCard'
 import { softwareList } from '@/constants'
 
-
-
-
 const SoftwareComponent = () => {
     return (
         <section className='flex flex-col w-full py-20 px-10 items-center gap-10 flex-wrap'>
             <h4 className='text-center md:w-[650px] text-[23px] font-light'>Discover and download all the essential software you need to kickstart your laptop experience! Get started hassle-free with our curated collection. Your perfect software awaits!</h4>
 
-            <div className='flex w-full gap-10 overflow-x-scroll md:overflow-auto'>
+            <div className='flex w-full gap-6 overflow-x-scroll md:overflow-none md:flex-wrap'>
                 {
                     softwareList.map((software) => {
                         return [
@@ -26,4 +23,4 @@ const SoftwareComponent = () => {
     )
 }
 
-export default SoftwareComponent
+export default SoftwareComponent 
