@@ -13,22 +13,22 @@ export const softwareList = [
     },
     {
         title: "Microsoft Office",
-        link: "https://146-59-70-146.xyz/Getintopc.com/Office.2013.15.0.5545.1000.64-Bit.ISO?md5=Xh4_uyFRYmvzjEIGCsdM1g&expires=1693431201",
+        link: "https://getintopc.com/softwares/office-tools/microsoft-office-2016-pro-plus-nov-2022-free-download-1298859/",
         icon: "#"
     },
     {
         title: "Itunes",
-        link: "https://secure-appldnld.apple.com/itunes12/032-75918-20230522-C36EFAE8-4B60-4DFC-AA7F-221E3BC91803/iTunes64Setup.exe",
+        link: "https://www.microsoft.com/p/itunes/9pb2mz1zmb1s?rtc=1&activetab=pivot:overviewtab",
         icon: "#"
     },
     {
         title: "IDM",
-        link: "https://secure-appldnld.apple.com/itunes12/032-75918-20230522-C36EFAE8-4B60-4DFC-AA7F-221E3BC91803/iTunes64Setup.exe",
+        link: "https://f3.1rsload.ru/load1/073/idman-RSLOAD.NET-.rar",
         icon: "#"
     },
     {
         title: "7Zip Archiver",
-        link: "https://secure-appldnld.apple.com/itunes12/032-75918-20230522-C36EFAE8-4B60-4DFC-AA7F-221E3BC91803/iTunes64Setup.exe",
+        link: "https://www.7-zip.org/a/7z2301-x64.exe",
         icon: "#"
     },
 
