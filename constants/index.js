@@ -30,7 +30,12 @@ export const softwareList = [
         title: "7Zip Archiver",
         link: "https://www.7-zip.org/a/7z2301-x64.exe",
         icon: "#"
+    }, {
+        title: "Adobe Photoshop 2018",
+        link: " https://getintopc.com/softwares/graphic-design/adobe-photoshop-cc-2018-19-portable-download-5705579/",
+        icon: "#"
     },
+
 
 ]
 
