@@ -2,24 +2,39 @@ import React from 'react'
 import { softwareCardComponent } from '@/type'
 import SoftwareCard from './softwareCard'
 import { softwareList } from '@/constants'
+import { DesignLinks } from '@/constants'
 
 const SoftwareComponent = () => {
     return (
-        <section className='flex flex-col w-full py-20 px-10 items-center gap-10 flex-wrap'>
-            <h4 className='text-center md:w-[650px] text-[23px] font-light'>Discover and download all the essential software you need to kickstart your laptop experience! Get started hassle-free with our curated collection. Your perfect software awaits!</h4>
+        <>
+            <section className='flex flex-col w-full pt-20 pb-10 px-10 items-start gap-10 flex-wrap'>
+                <p className='text-[30px] font-bold'>Tailor-Made Software for Your New Laptop</p>
 
-            <div className='flex w-full gap-6 overflow-x-scroll md:overflow-none md:flex-wrap'>
-                {
-                    softwareList.map((software) => {
-                        return [
-                            <SoftwareCard key={software.title} title={software.title} link={software.link} />
-                        ]
-                    })
-                }
-            </div>
+                <div className='flex w-full gap-6 flex-nowrap overflow-x-scroll md:overflow-none md:flex-wrap'>
+                    {
+                        softwareList.map((software) => {
+                            return [
+                                <SoftwareCard key={software.title} title={software.title} link={software.link} />
+                            ]
+                        })
+                    }
+                </div>
+            </section>
 
+            <section className="flex flex-col py-10 px-10 items-start">
+                <h2 className='text-[30px] font-bold mb-[30px]'>Design Links</h2>
+                <div className=' w-full flex flex-col md:flex-row gap-6 flex-wrap'>
+                    {
+                        DesignLinks.map((link) => {
+                            return (
+                                <SoftwareCard key={link.title} title={link.title} link={link.link} />
+                            )
+                        })
+                    }
+                </div>
+            </section>
+        </>
 
-        </section>
     )
 }
 
